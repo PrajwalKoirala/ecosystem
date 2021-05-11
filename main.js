@@ -10,7 +10,7 @@ function setup(){
   paraa = createP();
   paraa.position(50,650);
   paraa2 = createP();
-  paraa2.position(50,680);
+  paraa2.position(50,650);
   createCanvas(600,600);
   for(let i=0;i<initialpop;i++){
     v[i]=new vehicle();
