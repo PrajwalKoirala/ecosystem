@@ -8,7 +8,7 @@ var _reproduce=true;
 let paraa;
 function setup(){
   paraa = createP();
-  p.position(50,650);
+  paraa.position(50,650);
   createCanvas(600,600);
   for(let i=0;i<initialpop;i++){
     v[i]=new vehicle();
@@ -61,7 +61,7 @@ function draw(){
     }
     generation++;
   }
-  p.html('Current generation # :' + generation);
+  paraa.html('Current generation # :' + generation);
 }
 
 
