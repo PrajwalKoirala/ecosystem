@@ -11,7 +11,6 @@ function setup(){
   paraa.position(50,650);
   paraa2 = createP();
   paraa2.position(75,650);
-  paraa2.html('The agents eventually evolve to avoid red and consume green bubbles. https://github.com/PrajwalKoirala/ecosystem ');
   createCanvas(600,600);
   for(let i=0;i<initialpop;i++){
     v[i]=new vehicle();
@@ -65,6 +64,7 @@ function draw(){
     generation++;
   }
   paraa.html('Current generation # :' + generation);
+  paraa2.show();
 }
 
 
